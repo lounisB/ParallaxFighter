@@ -5,7 +5,7 @@ game developed for the
 Super Nintendo Entertainment System
 (SNES).
 
-# CONTROLS 
+## CONTROLS 
 
 D-Pad:
 - Up       : Move spaceship up
@@ -25,7 +25,7 @@ Button L:
 Button R:
 - Start music
 
-# COMPILATION
+## COMPILATION
 export PVSNESLIB_HOME=/home/user/pvsneslib_440_64b_linux/pvsneslib/  
 make
 
