@@ -30,4 +30,5 @@ export PVSNESLIB_HOME=/home/user/pvsneslib_440_64b_linux/pvsneslib/
 make
 
 <img width="1168" height="895" alt="spash" src="https://github.com/user-attachments/assets/9204fc20-d4eb-4e23-9d93-539de19e9adc" />
+  
 <img width="1168" height="895" alt="ParallaxFighter" src="https://github.com/user-attachments/assets/b34fe4dc-43fb-48cc-ba29-9056460e24d1" />
