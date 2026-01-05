@@ -105,15 +105,15 @@ void splashScreen()
                 consoleDrawText(10,8,"            ");
                 break;
             }
-    }
+        }
 
-    // "press button" blink
-    if( ticks < 15 )
-        consoleDrawText(10,8,"PRESS START");
-    else
-        consoleDrawText(10,8,"            ");
+        // "press button" blink
+        if( ticks < 15 )
+            consoleDrawText(10,8,"PRESS START");
+        else
+            consoleDrawText(10,8,"            ");
 
-    WaitForVBlank();
+        WaitForVBlank();
     }
 
     // //Fade out to start game
@@ -140,7 +140,7 @@ void game()
     u16 score = 0;                                                  // Player score
     u16 timerAlien = 0;                                             // When to show the next alien
     u16 startTimerAlien = 0;                                        // 1 if timer is running
-    u16 timerPressStart = 1000;                                     // When to show the next alien
+    u16 timerPressStart = 1000;                                     // Timer for Press Start text
     u16 startTimerPressStart = 0;                                   // 1 if timer is running
 
     // Music: Initialize sound engine (take some time)
